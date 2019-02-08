@@ -8,4 +8,5 @@ more intuitive for me... :)
 
 Currently, the websites/contests represented in this repo are:
 - [UVa Online Judge](https://uva.onlinejudge.org) - `uva` directory
+- [Leetcode](https://leetcode.com/problemset/all/) - `leetcode` directory
 - (more to come once I organize my directories...)
