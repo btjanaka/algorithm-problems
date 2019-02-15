@@ -8,6 +8,7 @@ more intuitive for me... :)
 
 Currently, the websites/contests represented in this repo are:
 - [UVa Online Judge](https://uva.onlinejudge.org) - `uva` directory
+- [Kattis](https://open.kattis.com/problems) - `kattis` directory
 - [Leetcode](https://leetcode.com/problemset/all/) - `leetcode` directory
 - [ICPC Live Archive](https://icpcarchive.ecs.baylor.edu) - `icpc_live_archive`
   directory
