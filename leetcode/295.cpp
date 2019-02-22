@@ -104,9 +104,11 @@ class MedianFinder {
     }
 
     // Possibly add on more levels above
-    if (lvl == heads_.size() - 1 && ret && choice_(engine_)) {
-      heads_.push_back(new node(num, nullptr, nullptr, heads_.back()));
-      heads_.back()->next = new node(num, heads_.back(), nullptr, ret);
+    if (lvl == heads_.size() - 1) {
+      while (ret && choice_(engine_)) {
+        heads_.push_back(new node(num, nullptr, nullptr, heads_.back()));
+        ret = heads_.back()->next = new node(num, heads_.back(), nullptr, ret);
+      }
     }
 
     return ret;
