@@ -1,3 +1,5 @@
+// Author: btjanaka (Bryon Tjanaka)
+// Problem: (Leetcode) 706
 class MyHashMap {
  public:
   /** Initialize your data structure here. */

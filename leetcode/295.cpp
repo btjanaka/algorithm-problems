@@ -1,3 +1,6 @@
+// Author: btjanaka (Bryon Tjanaka)
+// Problem: (Leetcode) 295
+
 // Skip list
 
 class MedianFinder {
