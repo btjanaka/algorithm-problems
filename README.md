@@ -7,11 +7,14 @@ bryon.tjanaka@gmail.com. I recognize that as time has gone on, I have tended to
 use less and less comments... :)
 
 Currently, the websites/contests represented in this repo are:
-- [UVa Online Judge](https://uva.onlinejudge.org) - `uva` directory
-- [Kattis](https://open.kattis.com/problems) - `kattis` directory
-- [Leetcode](https://leetcode.com/problemset/all/) - `leetcode` directory
-- [ICPC Live Archive](https://icpcarchive.ecs.baylor.edu) - `icpc_live_archive`
-  directory
-- [Hackerrank](https://www.hackerrank.com) - `hackerrank` directory (most of
-  these are stored on Hackerrank; I may put them here in the future)
-- (more to come once I organize my directories...)
+
+Website / Contest                                | Directory
+-------------------------------------------------|-------------------------
+[UVa Online Judge](https://uva.onlinejudge.org)  | uva
+[Kattis](https://open.kattis.com/problems)       | kattis
+[Leetcode](https://leetcode.com/problemset/all/) | leetcode
+[ICPC Live Archive](https://icpcarchive.ecs.baylor.edu) | icpc\_live\_archive
+[HackerRank](https://www.hackerrank.com)         | hackerrank
+[Google Hash Code](https://codingcompetitions.withgoogle.com/hashcode) | hashcode
+
+(more to come once I organize my directories...)
