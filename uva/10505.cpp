@@ -24,7 +24,7 @@ int main() {
       for (int i = 0; i < p; ++i) {
         int b;
         GET(b);
-        if (b > n) continue;
+        if (b > n) continue;  // completely ignore enemies that are out of range
         g[a].insert(b);
         g[b].insert(a);
       }
