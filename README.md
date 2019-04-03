@@ -16,5 +16,6 @@ Website / Contest                                | Directory
 [ICPC Live Archive](https://icpcarchive.ecs.baylor.edu) | icpc\_live\_archive
 [HackerRank](https://www.hackerrank.com)         | hackerrank
 [Google Hash Code](https://codingcompetitions.withgoogle.com/hashcode) | hashcode
+[Google Code Jam](https://code.google.com/codejam/past-contests) | codejam
 
 (more to come once I organize my directories...)
