@@ -17,5 +17,4 @@ Website / Contest                                | Directory
 [HackerRank](https://www.hackerrank.com)         | hackerrank
 [Google Hash Code](https://codingcompetitions.withgoogle.com/hashcode) | hashcode
 [Google Code Jam](https://code.google.com/codejam/past-contests) | codejam
-
-(more to come once I organize my directories...)
+[Google Kickstart](https://codingcompetitions.withgoogle.com/kickstart/archive) | kickstart
