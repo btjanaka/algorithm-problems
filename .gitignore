@@ -1,0 +1,16 @@
+# Binary files
+**/*.out
+**/*.class
+**/*.hi
+**/*.o
+
+# Input files
+**/*.txt
+**/*.in
+
+# CPSM
+cpsm_config.py
+__pycache__
+# Solving directories
+**/solving
+
