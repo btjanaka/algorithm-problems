@@ -8,6 +8,7 @@
 import Control.Monad
 import qualified Data.IntMap.Strict as IntMap
 import Data.List.Split
+import Data.Maybe
 
 filterElements :: [Int] -> Int -> IntMap.IntMap Int -> [Int] -> [Int]
 -- Do the actual filtering in the base case
@@ -19,7 +20,7 @@ filterElements (x:xs) k counts reversedNums =
     xs
     k
     (IntMap.insertWith (+) x 1 counts)
-    (if IntMap.lookup x counts == Nothing
+    (if isNothing $ IntMap.lookup x counts
        then x : reversedNums
        else reversedNums)
 
@@ -34,6 +35,6 @@ main = do
     let [n, k] = lineToInts params
         result = filterElements (lineToInts a) k IntMap.empty []
     putStrLn $
-      if length result == 0
+      if null result
         then "-1"
         else unwords $ map show result
