@@ -9,7 +9,6 @@
 **/*.in
 
 # CPSM
-cpsm_config.py
 __pycache__
 # Solving directories
 **/solving
