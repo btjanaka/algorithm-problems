@@ -5,12 +5,12 @@
 -- Idea: (implementation)
 -- Difficulty: easy
 -- Tags: fp
-import Control.Monad
+import           Control.Monad
 
 swap :: [Char] -> [Char]
-swap [] = []
-swap [x] = [x] -- Technically don't need to cover this because string is even length
-swap (x:y:xs) = y : x : (swap xs)
+swap []           = []
+swap [x         ] = [x] -- Technically don't need to cover this because string is even length
+swap (x : y : xs) = y : x : (swap xs)
 
 main = do
   n <- readLn :: IO Int

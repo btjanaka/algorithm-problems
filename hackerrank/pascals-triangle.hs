@@ -5,14 +5,14 @@
 -- Idea: (implementation)
 -- Difficulty: easy
 -- Tags: fp
-import Data.List
+import           Data.List
 
 pascal :: Int -> [[Int]]
 pascal 1 = [[1]]
 pascal n =
   let others = pascal $ n - 1
-      last = head others
-   in ([1] ++ map sum (transpose [init last, tail last]) ++ [1]) : others
+      last   = head others
+  in  ([1] ++ map sum (transpose [init last, tail last]) ++ [1]) : others
 
 main :: IO ()
 main = do

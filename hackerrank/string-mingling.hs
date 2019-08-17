@@ -5,7 +5,7 @@
 -- Idea: (implementation)
 -- Difficulty: easy
 -- Tags: fp
-import Data.List
+import           Data.List
 
 main = do
   p <- getLine

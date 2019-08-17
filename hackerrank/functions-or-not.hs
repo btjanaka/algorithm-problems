@@ -5,14 +5,14 @@
 -- Idea: Functions map each value to only one other value.
 -- Difficulty: easy
 -- Tags: fp
-import Control.Monad
-import qualified Data.Map as Map
+import           Control.Monad
+import qualified Data.Map                      as Map
 
 readLines :: Int -> IO [String]
 readLines n
   | n == 0 = return []
   | otherwise = do
-    s <- getLine
+    s          <- getLine
     otherLines <- readLines (n - 1)
     return $ s : otherLines
 
@@ -23,10 +23,9 @@ functionChecker (fails, m) [k, v] =
 main = do
   t <- readLn :: IO Int
   forM_ [1 .. t] $ \ca -> do
-    n <- readLn :: IO Int
+    n        <- readLn :: IO Int
     funcText <- readLines n
     let mappings = map (map (read :: String -> Int) . words) funcText
-    putStrLn $
-      if fst $ foldl functionChecker (False, Map.empty) mappings
-        then "NO"
-        else "YES"
+    putStrLn $ if fst $ foldl functionChecker (False, Map.empty) mappings
+      then "NO"
+      else "YES"

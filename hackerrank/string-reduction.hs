@@ -5,14 +5,13 @@
 -- Idea: (implementation)
 -- Difficulty: easy
 -- Tags: fp
-import qualified Data.Set as Set
+import qualified Data.Set                      as Set
 
 reduceString :: [Char] -> Set.Set Char -> [Char]
-reduceString [] _ = []
-reduceString (x:xs) cur =
-  if Set.member x cur
-    then reduceString xs cur
-    else x : reduceString xs (Set.insert x cur)
+reduceString []       _   = []
+reduceString (x : xs) cur = if Set.member x cur
+  then reduceString xs cur
+  else x : reduceString xs (Set.insert x cur)
 
 main = do
   s <- getLine

@@ -10,21 +10,20 @@
 
 module Main where
 
-import Control.Monad
-import Data.Array
-import Data.Bits
-import Data.List
-import Data.List.Split
-import Data.Set
-import Debug.Trace
-import System.Environment
-import System.IO
-import System.IO.Unsafe
+import           Control.Monad
+import           Data.Array
+import           Data.Bits
+import           Data.List
+import           Data.List.Split
+import           Data.Set
+import           Debug.Trace
+import           System.Environment
+import           System.IO
+import           System.IO.Unsafe
 
 factorial :: Integer -> Integer
-factorial n
-  | n <= 1 = 1
-  | otherwise = n * (factorial $ n - 1)
+factorial n | n <= 1    = 1
+            | otherwise = n * (factorial $ n - 1)
 
 e :: Double -> Int -> Double
 e x 0 = 1
