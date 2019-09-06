@@ -1,7 +1,7 @@
 -- Author: btjanaka (Bryon Tjanaka)
 -- Problem: (HackerRank) jumping-bunnies
 -- Title: Jumping Bunnies
--- Link: https://www.hackerrank.com/challenges/jumping-bunnies/problem?utm_campaign=challenge-recommendation&utm_medium=email&utm_source=24-hour-campaign
+-- Link: https://www.hackerrank.com/challenges/jumping-bunnies/problem
 -- Idea: LCM of all the numbers.
 -- Difficulty: easy
 -- Tags: fp
