@@ -23,7 +23,7 @@ abbreviations = {
         "name": "UVa",
         "dir": "uva",
     },
-    "kattis": {
+    "ka": {
         "name": "Kattis",
         "dir": "kattis",
     },
