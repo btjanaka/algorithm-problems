@@ -1,15 +1,26 @@
+#
 # Binary files
+#
+
 **/*.out
 **/*.class
 **/*.hi
 **/*.o
 
+#
 # Input files
+#
+
 **/*.txt
 **/*.in
 
+#
 # CPSM
+#
+
+# from running CPSM
 __pycache__
-# Solving directories
+
+# solving directories
 **/solving
 
