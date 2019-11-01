@@ -82,6 +82,8 @@ typedef pair<int, int> ii;
 typedef vector<int> vi;
 
 int main() {
+  cin.tie(NULL);
+  ios_base::sync_with_stdio(false);
 
   return 0;
 }
