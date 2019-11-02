@@ -8,6 +8,12 @@
 **/*.o
 
 #
+# Editor files
+#
+
+.*.swp
+
+#
 # Input files
 #
 
