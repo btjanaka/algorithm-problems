@@ -103,6 +103,51 @@ int main() {
 // Tags:
 """,
     },
+    "c": {
+        "filetype":
+            "c",
+        "code":
+            """\
+// Author: {{username}} ({{fullname}})
+// Problem: ({{name}}) {{problem_name}}
+// Title:
+// Link:
+// Idea:
+// Difficulty:
+// Tags:
+#include <assert.h>
+#include <limits.h>
+#include <math.h>
+#include <stdbool.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#define GET(x) scanf("%d", &x)
+#define GED(x) scanf("%lf", &x)
+typedef long long ll;
+
+int main() {
+
+  return 0;
+}
+""",
+    },
+    "c-blank": {
+        "filetype":
+            "c",
+        "code":
+            """\
+// Author: {{username}} ({{fullname}})
+// Problem: ({{name}}) {{problem_name}}
+// Title:
+// Link:
+// Idea:
+// Difficulty:
+// Tags:
+""",
+    },
     "java-blank": {
         "filetype":
             "java",
@@ -195,6 +240,10 @@ main = do
 run_commands = {
     "cpp": [
         "g++ {{ problem_name }}.cpp -o {{ problem_name }}.out",
+        "{{ problem_name }}.out < {{ problem_name }}.txt",
+    ],
+    "c": [
+        "gcc {{ problem_name }}.c -o {{ problem_name }}.out",
         "{{ problem_name }}.out < {{ problem_name }}.txt",
     ],
     "py": ["python {{ problem_name }}.py < {{ problem_name }}.txt",],
