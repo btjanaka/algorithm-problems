@@ -194,6 +194,38 @@ from collections import defaultdict
 # Tags:
 """,
     },
+    "py2": {
+        "filetype":
+            "py2",
+        "code":
+            """\
+# Author: {{username}} ({{fullname}})
+# Problem: ({{name}}) {{problem_name}}
+# Title:
+# Link:
+# Idea:
+# Difficulty:
+# Tags:
+
+import sys
+from collections import defaultdict
+
+""",
+    },
+    "py2-blank": {
+        "filetype":
+            "py2",
+        "code":
+            """\
+# Author: {{username}} ({{fullname}})
+# Problem: ({{name}}) {{problem_name}}
+# Title:
+# Link:
+# Idea:
+# Difficulty:
+# Tags:
+""",
+    },
     "hs": {
         "filetype":
             "hs",
@@ -247,4 +279,5 @@ run_commands = {
         "{{ problem_name }}.out < {{ problem_name }}.txt",
     ],
     "py": ["python {{ problem_name }}.py < {{ problem_name }}.txt",],
+    "py2": ["python2 {{ problem_name }}.py2 < {{ problem_name }}.txt",],
 }
