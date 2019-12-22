@@ -1,9 +1,8 @@
-# Competitive Programming Solutions
+# Algorithm Problem Solutions
 
-This repository contains (sometimes partial) solutions to problems from various
-(competitive) programming websites and competitions (not all of them are really
-competitions). If you need any explanations, feel free to contact me at
-bryon@btjanaka.net.
+This repository contains solutions to algorithm problems from various websites
+and competitions. Most solutions have explanations included at the top. If you
+need further details, feel free to contact me at bryon@btjanaka.net.
 
 Currently, the websites/contests represented in this repo are:
 
