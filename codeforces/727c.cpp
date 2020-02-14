@@ -1,5 +1,7 @@
 // Author: btjanaka (Bryon Tjanaka)
 // Problem: (CodeForces) 727c
+// Title: Guess the Array
+// Link: http://codeforces.com/contest/727/problem/C
 #include <bits/stdc++.h>
 #define GET(x) scanf("%d", &x)
 #define GED(x) scanf("%lf", &x)

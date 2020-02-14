@@ -1,5 +1,5 @@
 // Author: btjanaka (Bryon Tjanaka)
-// Problem: (CodeForces) 550f
+// Problem: (CodeForces) 1144f
 // Title: Graph Without Long Directed Paths
 // Link: https://codeforces.com/contest/1144/problem/F
 // Idea: Check if the graph is bipartite. If so, it will have a solution.

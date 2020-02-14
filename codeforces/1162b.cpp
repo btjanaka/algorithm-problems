@@ -1,5 +1,5 @@
 // Author: btjanaka (Bryon Tjanaka)
-// Problem: (CodeForces) 557b
+// Problem: (CodeForces) 1162b
 // Title: Double Matrix
 // Link: https://codeforces.com/contest/1162/problem/B
 #include <bits/stdc++.h>
