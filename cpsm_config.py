@@ -162,6 +162,20 @@ int main() {
 // Tags:
 """,
     },
+    "js-blank": {
+        "filetype":
+            "js",
+        "code":
+            """\
+// Author: {{username}} ({{fullname}})
+// Problem: ({{name}}) {{problem_name}}
+// Title:
+// Link:
+// Idea:
+// Difficulty:
+// Tags:
+""",
+    },
     "py": {
         "filetype":
             "py",
