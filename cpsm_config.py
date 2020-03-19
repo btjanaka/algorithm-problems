@@ -17,27 +17,34 @@ save_input_to_git = False
 #   "(abbrev)": {
 #       "name": "(full name of website/competition/etc)",
 #       "dir": "(name of directory)",
+#       # Whether or not to create input files for problems in this directory
+#       "create_input_file": True/False,
 #   },
 abbreviations = {
     "uva": {
         "name": "UVa",
         "dir": "uva",
+        "create_input_file": True,
     },
     "ka": {
         "name": "Kattis",
         "dir": "kattis",
+        "create_input_file": True,
     },
     "hr": {
         "name": "HackerRank",
-        "dir": "hackerrank"
+        "dir": "hackerrank",
+        "create_input_file": True,
     },
     "lc": {
         "name": "LeetCode",
         "dir": "leetcode",
+        "create_input_file": False,
     },
     "cf": {
         "name": "CodeForces",
         "dir": "codeforces",
+        "create_input_file": True,
     },
 }
 
