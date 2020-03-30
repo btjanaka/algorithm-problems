@@ -1,5 +1,10 @@
 // Author: btjanaka (Bryon Tjanaka)
 // Problem: (Kattis) ecoins
+// Title: e-Coins
+// Link: https://open.kattis.com/problems/ecoins
+// Idea:
+// Difficulty: medium
+// Tags: dynamic-programming
 #include <bits/stdc++.h>
 #define GET(x) scanf("%d", &x)
 #define GED(x) scanf("%lf", &x)

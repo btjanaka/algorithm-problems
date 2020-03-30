@@ -1,5 +1,10 @@
 // Author: btjanaka (Bryon Tjanaka)
 // Problem: (Kattis) fizzbuzz
+// Title: FizzBuzz
+// Link: https://open.kattis.com/problems/fizzbuzz
+// Idea:
+// Difficulty: easy
+// Tags: implementation
 #include <iostream>
 using namespace std;
 

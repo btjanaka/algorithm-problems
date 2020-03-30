@@ -1,5 +1,13 @@
 // Author: btjanaka (Bryon Tjanaka)
 // Problem: (Kattis) 3dprinter
+// Title: 3D Printed Statues
+// Link: https://open.kattis.com/problems/3dprinter
+// Idea: Try all possible numbers of "printer days" -- days where all you do is
+// print printers. The total time to print n statues will be the number of
+// printer days + the number of days to print the statues with the printers
+// created.
+// Difficulty: easy
+// Tags: implementation, brute-force
 #include <bits/stdc++.h>
 #define GET(x) scanf("%d", &x)
 #define GED(x) scanf("%lf", &x)

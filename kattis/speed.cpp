@@ -1,5 +1,10 @@
 // Author: btjanaka (Bryon Tjanaka)
 // Problem: (Kattis) speed
+// Title: Need for Speed
+// Link: https://open.kattis.com/problems/speed
+// Idea:
+// Difficulty: medium
+// Tags: binary-search
 #include <bits/stdc++.h>
 #define GET(x) scanf("%d", &x)
 #define GED(x) scanf("%lf", &x)

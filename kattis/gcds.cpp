@@ -1,6 +1,11 @@
-// Author: Meta Novitia
-// Edited by: btjanaka (Bryon Tjanaka)
+// Author: MetaNovitia (Meta Novitia)
+// Editor: btjanaka (Bryon Tjanaka)
 // Problem: (Kattis) gcds
+// Title: GCDs
+// Link: https://open.kattis.com/problems/gcds
+// Idea: See code.
+// Difficulty: hard
+// Tags: math
 #include <bits/stdc++.h>
 #define GET(x) scanf("%d", &x)
 #define GED(x) scanf("%lf", &x)

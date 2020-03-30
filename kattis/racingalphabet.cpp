@@ -1,5 +1,10 @@
 // Author: btjanaka (Bryon Tjanaka)
 // Problem: (Kattis) racingalphabet
+// Title: Racing Around the Alphabet
+// Link: https://open.kattis.com/problems/racingalphabet
+// Idea:
+// Difficulty: easy
+// Tags: implementation
 #include <bits/stdc++.h>
 #define GET(x) scanf("%d", &x)
 #define GED(x) scanf("%lf", &x)

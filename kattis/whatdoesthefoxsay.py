@@ -1,5 +1,10 @@
 # Author: btjanaka (Bryon Tjanaka)
 # Problem: (Kattis) whatdoesthefoxsay
+# Title: What does the fox say?
+# Link: https://open.kattis.com/problems/whatdoesthefoxsay
+# Idea: Filter out the words said by the other animals.
+# Difficulty: easy
+# Tags: implementation
 t = int(input().strip())
 for i in range(t):
     words = input().strip().split()

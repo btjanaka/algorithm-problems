@@ -2,7 +2,7 @@
 // Problem: (Kattis) communicationssatellite
 // Title: Communications Satellite
 // Link: https://open.kattis.com/problems/communicationssatellite
-// Idea: Build MST
+// Idea: Build an MST.
 // Difficulty: medium
 // Tags: mst, graph
 #include <bits/stdc++.h>

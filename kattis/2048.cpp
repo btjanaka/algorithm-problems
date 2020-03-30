@@ -1,5 +1,10 @@
 // Author: btjanaka (Bryon Tjanaka)
 // Problem: (Kattis) 2048
+// Title: 2048
+// Link: https://open.kattis.com/problems/2048
+// Idea: Implement the game.
+// Difficulty: medium
+// Tags: implementation
 #include <bits/stdc++.h>
 #define GET(x) scanf("%d", &x)
 #define GED(x) scanf("%lf", &x)

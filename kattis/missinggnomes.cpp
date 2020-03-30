@@ -1,5 +1,10 @@
 // Author: btjanaka (Bryon Tjanaka)
-// Problem: (Kattis) Missing Gnomes
+// Problem: (Kattis) missinggnomes
+// Title: Missing Gnomes
+// Link: https://open.kattis.com/problems/missinggnomes
+// Idea:
+// Difficulty: easy
+// Tags: greedy
 #include <bits/stdc++.h>
 #define GET(x) scanf("%d", &x)
 #define GED(x) scanf("%lf", &x)

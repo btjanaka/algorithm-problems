@@ -1,5 +1,10 @@
 // Author: btjanaka (Bryon Tjanaka)
 // Problem: (Kattis) purplerain
+// Title: Purple Rain
+// Link: https://open.kattis.com/problems/purplerain
+// Idea: Kadane's algorithm.
+// Difficulty: medium
+// Tags: dynamic-programming, kadane
 #include <bits/stdc++.h>
 #define GET(x) scanf("%d", &x)
 #define GED(x) scanf("%lf", &x)

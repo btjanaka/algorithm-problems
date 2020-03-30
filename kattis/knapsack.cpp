@@ -1,5 +1,10 @@
 // Author: btjanaka (Bryon Tjanaka)
 // Problem: (Kattis) knapsack
+// Title: Knapsack
+// Link: https://open.kattis.com/problems/knapsack
+// Idea: Classic DP problem.
+// Difficulty: easy
+// Tags: dynamic-programming
 #include <bits/stdc++.h>
 #define GET(x) scanf("%d", &x)
 #define GED(x) scanf("%lf", &x)

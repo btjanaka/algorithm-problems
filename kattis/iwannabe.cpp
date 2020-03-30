@@ -1,5 +1,10 @@
 // Author: btjanaka (Bryon Tjanaka)
 // Problem: (Kattis) iwannabe
+// Title: I Wanna Be The Very Best
+// Link: https://open.kattis.com/problems/iwannabe
+// Idea:
+// Difficulty: easy
+// Tags:
 #include <bits/stdc++.h>
 #define GET(x) scanf("%d", &x)
 #define GED(x) scanf("%lf", &x)

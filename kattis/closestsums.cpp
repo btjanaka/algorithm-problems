@@ -1,5 +1,10 @@
 // Author: btjanaka (Bryon Tjanaka)
 // Problem: (Kattis) closestsums
+// Title: Closest Sums
+// Link: https://open.kattis.com/problems/closestsums
+// Idea: Simply try all pairs of numbers and see which pair has the closest sum.
+// Difficulty: easy
+// Tags: brute-force
 #include <bits/stdc++.h>
 #define GET(x) scanf("%d", &x)
 #define GED(x) scanf("%lf", &x)
@@ -9,7 +14,6 @@ typedef pair<int, int> ii;
 
 int a[1010];
 
-// simply try all pairs of numbers and see which pair has the closest sum
 int main() {
   int n;
   for (int ca = 1; GET(n) > 0; ++ca) {

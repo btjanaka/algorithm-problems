@@ -1,5 +1,10 @@
 // Author: btjanaka (Bryon Tjanaka)
 // Problem: (Kattis) eulersnumber
+// Title: Euler's Number
+// Link: https://open.kattis.com/problems/eulersnumber
+// Idea: Implement the formula.
+// Difficulty: easy
+// Tags: implementation
 #include <bits/stdc++.h>
 #define GET(x) scanf("%d", &x)
 #define GED(x) scanf("%lf", &x)

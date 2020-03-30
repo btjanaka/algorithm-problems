@@ -1,5 +1,10 @@
 // Author: btjanaka (Bryon Tjanaka)
 // Problem: (Kattis) bing
+// Title: Bing It On
+// Link: https://open.kattis.com/problems/bing
+// Idea: Use a trie to keep track of the words.
+// Difficulty: medium
+// Tags: trie, strings, implementation
 #include <bits/stdc++.h>
 #define GET(x) scanf("%d", &x)
 #define GED(x) scanf("%lf", &x)

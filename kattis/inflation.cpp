@@ -1,5 +1,10 @@
 // Author: btjanaka (Bryon Tjanaka)
 // Problem: (Kattis) inflation
+// Title: Inflation
+// Link: https://open.kattis.com/problems/inflation
+// Idea:
+// Difficulty: easy
+// Tags: greedy
 #include <bits/stdc++.h>
 #define GET(x) scanf("%d", &x)
 #define GED(x) scanf("%lf", &x)

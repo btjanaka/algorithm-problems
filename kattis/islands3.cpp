@@ -1,5 +1,10 @@
 // Author: btjanaka (Bryon Tjanaka)
 // Problem: (Kattis) islands3
+// Title: Islands
+// Link: https://open.kattis.com/problems/islands3
+// Idea: Use BFS to find connected components in the grid.
+// Difficulty: medium
+// Tags: graph, connected-components, breadth-first-search
 #include <bits/stdc++.h>
 #define GET(x) scanf("%d", &x)
 #define GED(x) scanf("%lf", &x)

@@ -1,5 +1,10 @@
 // Author: btjanaka (Bryon Tjanaka)
 // Problem: (Kattis) suspensionbridges
+// Title: Suspension Bridges
+// Link: https://open.kattis.com/problems/suspensionbridges
+// Idea:
+// Difficulty: medium
+// Tags: binary-search
 #include <bits/stdc++.h>
 #define GET(x) scanf("%d", &x)
 #define GED(x) scanf("%lf", &x)

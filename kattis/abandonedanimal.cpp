@@ -1,5 +1,10 @@
 // Author: btjanaka (Bryon Tjanaka)
 // Problem: (Kattis) abandonedanimal
+// Title: Abandoned Animal
+// Link: https://open.kattis.com/problems/abandonedanimal
+// Idea:
+// Difficulty: medium
+// Tags: implementation
 #include <bits/stdc++.h>
 #define GET(x) scanf("%d", &x)
 #define GED(x) scanf("%lf", &x)

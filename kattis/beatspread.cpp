@@ -1,5 +1,10 @@
 // Author: btjanaka (Bryon Tjanaka)
 // Problem: (Kattis) beatspread
+// Title: Beat the Spread!
+// Link: https://open.kattis.com/problems/beatspread
+// Idea:
+// Difficulty: easy
+// Tags: math
 #include <bits/stdc++.h>
 #define GET(x) scanf("%d", &x)
 #define GED(x) scanf("%lf", &x)

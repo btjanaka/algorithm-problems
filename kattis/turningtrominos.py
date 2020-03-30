@@ -5,8 +5,8 @@
 # Idea: Start with a big tromino, then keep finding what smaller part of the
 # tromino we are in, until we are at the basic tromino. Translate the part we
 # find along the way so that it is touching the x and y axis.
-# Difficulty:
-# Tags:
+# Difficulty: medium
+# Tags: recursion, computational-geometry, implementation
 
 import sys
 from collections import defaultdict

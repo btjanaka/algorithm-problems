@@ -1,5 +1,11 @@
 # Author: btjanaka (Bryon Tjanaka)
 # Problem: (Kattis) glitchbot
+# Title: GlitchBot
+# Link: https://open.kattis.com/problems/glitchbot
+# Idea: Try all single instruction corrections and see which one leads the robot
+# to the destination.
+# Difficulty: easy
+# Tags: implementation
 
 dx = [0, 1, 0, -1]
 dy = [1, 0, -1, 0]

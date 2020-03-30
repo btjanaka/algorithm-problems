@@ -1,5 +1,10 @@
 // Author: btjanaka (Bryon Tjanaka)
 // Problem: (Kattis) codecleanups
+// Title: Code Cleanups
+// Link: https://open.kattis.com/problems/codecleanups
+// Idea: Iterate through the days.
+// Difficulty: easy
+// Tags: implementation
 #include <bits/stdc++.h>
 #define GET(x) scanf("%d", &x)
 #define GED(x) scanf("%lf", &x)

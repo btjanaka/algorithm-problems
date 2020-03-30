@@ -1,5 +1,10 @@
 // Author: btjanaka (Bryon Tjanaka)
 // Problem: (Kattis) exactchange2
+// Title: Exact Change
+// Link: https://open.kattis.com/problems/exactchange2
+// Idea: See code.
+// Difficulty: medium
+// Tags: dynamic-programming
 #include <bits/stdc++.h>
 #define GET(x) scanf("%d", &x)
 #define GED(x) scanf("%lf", &x)

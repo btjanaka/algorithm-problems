@@ -1,5 +1,10 @@
 // Author: btjanaka (Bryon Tjanaka)
 // Problem: (Kattis) trip
+// Title: The Trip
+// Link: https://open.kattis.com/problems/trip
+// Idea: See code.
+// Difficulty: medium
+// Tags: greedy
 #include <bits/stdc++.h>
 #define GET(x) scanf("%d", &x)
 #define GED(x) scanf("%lf", &x)

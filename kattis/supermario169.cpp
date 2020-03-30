@@ -1,5 +1,11 @@
 // Author: btjanaka (Bryon Tjanaka)
 // Problem: (Kattis) supermario169
+// Title: Super Mario 169
+// Link: https://open.kattis.com/problems/supermario169
+// Idea: Use TSP to find distance between the coins that pop up, and between the
+// switches.
+// Difficulty: medium
+// Tags: dynamic-programming, tsp, implementation
 #include <bits/stdc++.h>
 #define GET(x) scanf("%d", &x)
 #define GED(x) scanf("%lf", &x)

@@ -1,5 +1,10 @@
 // Author: btjanaka (Bryon Tjanaka)
 // Problem: (Kattis) acm
+// Title: ACM Contest Scoring
+// Link: https://open.kattis.com/problems/acm
+// Idea: See code. Implementation.
+// Difficulty: medium
+// Tags: implementation
 #include <bits/stdc++.h>
 #define GET(x) scanf("%d", &x)
 #define GED(x) scanf("%lf", &x)

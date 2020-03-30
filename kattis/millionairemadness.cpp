@@ -1,5 +1,11 @@
 // Author: btjanaka (Bryon Tjanaka)
 // Problem: (Kattis) millionairemadness
+// Title: Millionaire Madness
+// Link: https://open.kattis.com/problems/millionairemadness
+// Idea: Binary search for a ladder height that works; check the ladder height
+// with BFS.
+// Difficulty: medium
+// Tags: binary-search, graph, breadth-first-search
 #include <bits/stdc++.h>
 #define GET(x) scanf("%d", &x)
 #define GED(x) scanf("%lf", &x)

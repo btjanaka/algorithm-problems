@@ -1,5 +1,10 @@
 // Author: btjanaka (Bryon Tjanaka)
 // Problem: (Kattis) permutationdescent
+// Title: Permutation Descent Counts
+// Link: https://open.kattis.com/problems/permutationdescent
+// Idea:
+// Difficulty: hard
+// Tags: dynamic-programming
 #include <bits/stdc++.h>
 #define FOR(i, a, b) for (int i = a; i < b; ++i)
 #define GET(x) scanf("%d", &x)

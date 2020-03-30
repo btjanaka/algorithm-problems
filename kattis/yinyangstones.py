@@ -1,5 +1,10 @@
 # Author: btjanaka (Bryon Tjanaka)
 # Problem: (Kattis) yinyangstones
+# Title: Yin and Yang Stones
+# Link: https://open.kattis.com/problems/yinyangstones
+# Idea: Somehow if the number of black and white stones is equal, it works.
+# Difficulty: easy
+# Tags: ad-hoc, math
 
 stoneSeq = input()
 total = 0

@@ -1,5 +1,10 @@
 // Author: btjanaka (Bryon Tjanaka)
 // Problem: (Kattis) ith
+// Title: God Save the i-th Queen
+// Link: https://open.kattis.com/problems/ith
+// Idea: See code.
+// Difficulty: hard
+// Tags: implementation, brute-force
 #include <bits/stdc++.h>
 #define GET(x) scanf("%d", &x)
 #define GED(x) scanf("%lf", &x)

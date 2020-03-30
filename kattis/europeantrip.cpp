@@ -1,5 +1,10 @@
 // Author: btjanaka (Bryon Tjanaka)
 // Problem: (Kattis) europeantrip
+// Title: European Trip
+// Link: https://open.kattis.com/problems/europeantrip
+// Idea:
+// Difficulty: medium
+// Tags: geometry
 #include <bits/stdc++.h>
 using namespace std;
 // Original Source:

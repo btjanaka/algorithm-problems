@@ -1,5 +1,10 @@
 // Author: btjanaka (Bryon Tjanaka)
 // Problem: (Kattis) zebrasocelots
+// Title: Zebras and Ocelots
+// Link: https://open.kattis.com/problems/zebrasocelots
+// Idea:
+// Difficulty: easy
+// Tags:
 #include <bits/stdc++.h>
 #define GET(x) scanf("%d", &x)
 #define GED(x) scanf("%lf", &x)

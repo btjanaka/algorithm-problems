@@ -1,7 +1,11 @@
 // Author: btjanaka (Bryon Tjanaka)
 // Problem: (Kattis) cake
+// Title: Cake
+// Link: https://open.kattis.com/problems/cake
 // Idea: Greedily divide the cake - it should always be possible to divide
-// without leftovers
+// without leftovers.
+// Difficulty: medium
+// Tags: greedy, implementation
 #include <bits/stdc++.h>
 #define GET(x) scanf("%d", &x)
 #define GED(x) scanf("%lf", &x)

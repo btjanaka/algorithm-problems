@@ -1,15 +1,18 @@
 // Author: btjanaka (Bryon Tjanaka)
 // Problem: (Kattis) beepers
+// Title: Collecting Beepers!
+// Link: https://open.kattis.com/problems/beepers
+// This solution uses TSP (traveling salesperson), but the input is small enough
+// that you can just go through all permutations of the beeper orderings and
+// find the one that requires the least traveling.
+// Difficulty: medium
+// Tags: dynamic-programming, tsp
 #include <bits/stdc++.h>
 #define GET(x) scanf("%d", &x)
 #define GED(x) scanf("%lf", &x)
 typedef long long ll;
 using namespace std;
 typedef pair<int, int> ii;
-
-// this solution uses TSP (traveling salesperson) but the input is small enough
-// that you can just go through all permutations of the beeper orderings and
-// find the one that requires the least traveling
 
 int n;
 int dist[15][15];
