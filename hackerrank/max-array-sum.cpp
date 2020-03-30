@@ -1,5 +1,10 @@
 // Author: btjanaka (Bryon Tjanaka)
 // Problem: (HackerRank) max-array-sum
+// Title: Max Array Sum
+// Link: https://www.hackerrank.com/challenges/max-array-sum/problem
+// Idea:
+// Difficulty: medium
+// Tags: dynamic-programming, arrays
 #include <bits/stdc++.h>
 #define GET(x) scanf("%d", &x)
 #define GED(x) scanf("%lf", &x)

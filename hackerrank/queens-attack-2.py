@@ -1,5 +1,11 @@
 # Author: btjanaka (Bryon Tjanaka)
 # Problem: (HackerRank) queens-attack-2
+# Title: Queen's Attack II
+# Link: https://www.hackerrank.com/challenges/queens-attack-2/problem
+# Idea: Brute force -- check all 8 directions to see how many squares the queen
+# can attack.
+# Difficulty: medium
+# Tags: implementation
 import sys
 from collections import defaultdict
 

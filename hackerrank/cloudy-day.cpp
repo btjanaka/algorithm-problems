@@ -1,5 +1,14 @@
 // Author: btjanaka (Bryon Tjanaka)
 // Problem: (HackerRank) cloudy-day
+// Title: Cloudy Day
+// Link: https://www.hackerrank.com/challenges/cloudy-day/problem
+// Idea: Think of everything in terms of "events" -- there are events for
+// encountering a city, beginning a cloud, and ending a cloud. If we order these
+// events by their position, we can iterate through them in order while keeping
+// track of what clouds are active, and we can see which cloud covers the most
+// cities on its own.
+// Difficulty: medium
+// Tags: array, implementation
 #include <bits/stdc++.h>
 #define GET(x) scanf("%d", &x)
 #define GED(x) scanf("%lf", &x)

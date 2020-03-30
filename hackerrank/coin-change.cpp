@@ -1,5 +1,10 @@
 // Author: btjanaka (Bryon Tjanaka)
-// Problem: (Hackerrank) Coin Change
+// Problem: (Hackerrank) coin-change
+// Title: Coin Change
+// Link: https://www.hackerrank.com/challenges/coin-change/problem
+// Idea: Classic DP problem.
+// Difficulty: medium
+// Tags: dynamic-programming
 #include <bits/stdc++.h>
 using namespace std;
 typedef long long ll;

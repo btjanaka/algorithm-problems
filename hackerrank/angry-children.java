@@ -1,5 +1,12 @@
 // Author: btjanaka (Bryon Tjanaka)
-// Problem: (HackerRank) max-min
+// Problem: (HackerRank) angry-children
+// Title: Max Min
+// Link: https://www.hackerrank.com/challenges/angry-children/problem
+// Idea: Sort the array, then go through with a window of size k and
+// continuously calculate the difference between element i + k - 1 and element
+// i.
+// Difficulty: medium
+// Tags: greedy
 import java.io.*;
 import java.util.*;
 

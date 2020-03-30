@@ -1,5 +1,10 @@
 // Author: btjanaka (Bryon Tjanaka)
-// Problem: (Hackerrank) Angry Professor
+// Problem: (Hackerrank) angry-professor
+// Title: Angry Professor
+// Link: https://www.hackerrank.com/challenges/angry-professor/problem
+// Idea: Simply count the number of ontime students.
+// Difficulty: easy
+// Tags: implementation
 #include <bits/stdc++.h>
 using namespace std;
 #define GET(x) scanf("%d", &(x))

@@ -1,5 +1,10 @@
 // Author: btjanaka (Bryon Tjanaka)
 // Problem: (HackerRank) climbing-the-leaderboard
+// Title: Climbing the Leaderboard
+// Link: https://www.hackerrank.com/challenges/climbing-the-leaderboard/problem
+// Idea:
+// Difficulty: medium
+// Tags: implementation
 #include <bits/stdc++.h>
 #define GET(x) scanf("%d", &x)
 #define GED(x) scanf("%lf", &x)

@@ -1,7 +1,7 @@
 -- Author: btjanaka (Bryon Tjanaka)
 -- Problem: (HackerRank) compute-the-area-of-a-polygon
 -- Title: Compute the Area of a Polygon
--- Link: https://www.hackerrank.com/challenges/lambda-march-compute-the-area-of-a-polygon/problem?h_r=next-challenge&h_v=zen
+-- Link: https://www.hackerrank.com/challenges/lambda-march-compute-the-area-of-a-polygon/problem
 -- Idea: Shoelace Formula - see https://en.wikipedia.org/wiki/Shoelace_formula
 -- Difficulty: easy
 -- Tags: computation-geometry, fp

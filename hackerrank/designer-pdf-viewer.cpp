@@ -1,12 +1,13 @@
 // Author: btjanaka (Bryon Tjanaka)
 // Problem: (HackerRank) designer-pdf-viewer
+// Title: Designer PDF Viewer
+// Link: https://www.hackerrank.com/challenges/designer-pdf-viewer/problem
+// Idea: Find the max height in each block of text.
+// Difficulty: easy
+// Tags: implementation
 #include <bits/stdc++.h>
 #define GET(x) scanf("%d", &x)
-#define GED(x) scanf("%lf", &x)
 using namespace std;
-typedef long long ll;
-typedef pair<int, int> ii;
-typedef vector<int> vi;
 
 int main() {
   int h[26];

@@ -1,5 +1,10 @@
 // Author: btjanaka (Bryon Tjanaka)
 // Problem: (HackerRank) grid-challenge
+// Title: Grid Challenge
+// Link: https://www.hackerrank.com/challenges/grid-challenge/problem
+// Idea: Do a bunch of sorting.
+// Difficulty: easy
+// Tags: implementation
 #include <bits/stdc++.h>
 #define GET(x) scanf("%d", &x)
 #define GED(x) scanf("%lf", &x)

@@ -1,5 +1,10 @@
 // Author: btjanaka (Bryon Tjanaka)
 // Problem: (Hackerrank) sock-merchant
+// Title: Sock Merchant
+// Link: https://www.hackerrank.com/challenges/sock-merchant/problem
+// Idea: Count up how many of each sock there are, then count up pairs.
+// Difficulty: easy
+// Tags: implementation
 #include <bits/stdc++.h>
 #define GET(x) scanf("%d", &x)
 #define GED(x) scanf("%lf", &x)

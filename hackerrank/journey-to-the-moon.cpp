@@ -1,5 +1,11 @@
 // Author: btjanaka (Bryon Tjanaka)
-// Problem: (Hackerrank) Journey to the Moon
+// Problem: (Hackerrank) journey-to-the-moon
+// Title: Journey to the Moon
+// Link: https://www.hackerrank.com/challenges/journey-to-the-moon/problem
+// Idea: The pairs of astronauts form a graph. Find connected components to find
+// the number of astronauts from each country.
+// Difficulty: medium
+// Tags: graph, connected-components, breadth-first-search
 #include <bits/stdc++.h>
 
 using namespace std;

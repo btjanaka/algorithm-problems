@@ -1,5 +1,10 @@
 // Author: btjanaka (Bryon Tjanaka)
-// Problem: (HackerRank) sequence-equation
+// Problem: (HackerRank) permutation-equation
+// Title: Sequence Equation
+// Link: https://www.hackerrank.com/challenges/permutation-equation/problem
+// Idea:
+// Difficulty: easy
+// Tags: implementation
 import java.io.*;
 import java.math.*;
 import java.security.*;

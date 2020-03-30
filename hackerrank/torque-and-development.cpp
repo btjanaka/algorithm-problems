@@ -1,5 +1,13 @@
 // Author: btjanaka (Bryon Tjanaka)
-// Problem: (Hackerrank) Roads and Libraries
+// Problem: (Hackerrank) torque-and-development
+// Title: Roads and Libraries
+// Link: https://www.hackerrank.com/challenges/torque-and-development/problem
+// Idea: Use connected components to find groups of cities. Then compare the
+// cost of 1) building a library in one city in each component and building
+// roads in each component (so that each city connects to a library) and 2)
+// building a library in each city
+// Difficulty: medium
+// Tags: graphs, connected-components
 #include <bits/stdc++.h>
 
 using namespace std;

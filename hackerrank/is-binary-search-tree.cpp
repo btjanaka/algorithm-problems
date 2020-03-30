@@ -1,6 +1,10 @@
 // Author: btjanaka (Bryon Tjanaka)
-// Problem: (Hackerrank) Is this a Binary Search Tree?
-
+// Problem: (Hackerrank) is-binary-search-tree
+// Title: Is this a Binar Search Tree?
+// Link: https://www.hackerrank.com/challenges/is-binary-search-tree/problem
+// Idea: Recursively check each node.
+// Difficulty: easy
+// Tags: binary-search-tree
 #include <climits>
 
 bool f(Node* cur, int mn, int mx) {

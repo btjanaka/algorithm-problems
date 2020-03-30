@@ -1,5 +1,10 @@
 // Author: btjanaka (Bryon Tjanaka)
-// Problem: (Hackerrank) Knapsack
+// Problem: (Hackerrank) unbounded-knapsack
+// Title: Knapsack
+// Link: https://www.hackerrank.com/challenges/unbounded-knapsack/problem
+// Idea: Classic DP algorithm.
+// Difficulty: medium
+// Tags: dynamic-programming
 #include <bits/stdc++.h>
 #define GET(x) scanf("%d", &(x));
 

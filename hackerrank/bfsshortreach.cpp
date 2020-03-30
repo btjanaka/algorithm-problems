@@ -1,5 +1,10 @@
 // Author: btjanaka (Bryon Tjanaka)
-// Problem: (Hackerrank) breadth-first-search-shortest-reach
+// Problem: (Hackerrank) bfsshortreach
+// Title: Breadth First Search: Shortest Reach
+// Link: https://www.hackerrank.com/challenges/bfsshortreach/problem
+// Idea: Follow the given instructions.
+// Difficulty: easy
+// Tags: graph, breadth-first-search
 #include <bits/stdc++.h>
 #define GET(x) scanf("%d", &x)
 #define GED(x) scanf("%lf", &x)

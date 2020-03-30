@@ -1,5 +1,10 @@
 // Author: btjanaka (Bryon Tjanaka)
-// Problem: (Hackerrank) dijkstra-shortest-reach-2
+// Problem: (Hackerrank) dijkstrashortestreach
+// Title: Dijkstra: Shortest Reach 2
+// Link: https://www.hackerrank.com/challenges/dijkstrashortreach/problem
+// Idea: Implement Dijkstra's algorithm.
+// Difficulty: medium
+// Tags: dijkstra, shortest-paths, graph
 #include <bits/stdc++.h>
 #define GET(x) scanf("%d", &x)
 #define GED(x) scanf("%lf", &x)

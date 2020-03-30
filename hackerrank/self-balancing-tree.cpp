@@ -1,5 +1,10 @@
 // Author: btjanaka (Bryon Tjanaka)
-// Problem: (Hackerrank) Self Balancing Tree
+// Problem: (Hackerrank) self-balancing-tree
+// Title: Self Balancing Tree
+// Link: https://www.hackerrank.com/challenges/self-balancing-tree/problem
+// Idea: Implement AVL trees.
+// Difficulty: medium
+// Tags: binary-search-tree, implementation
 
 /* Node is defined as :
 typedef struct node

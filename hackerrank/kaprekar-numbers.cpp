@@ -1,5 +1,10 @@
 // Author: btjanaka (Bryon Tjanaka)
-// Problem: (Hackerrank) modified-kaprekar-numbers
+// Problem: (Hackerrank) kaprekar-numbers
+// Title: Modified Kaprekar Numbers
+// Link: https://www.hackerrank.com/challenges/kaprekar-numbers/problem
+// Idea: Brute force -- try all possible values from p to q.
+// Difficulty: easy
+// Tags: math, implementation
 #include <bits/stdc++.h>
 #define GET(x) scanf("%d", &x)
 #define GED(x) scanf("%lf", &x)

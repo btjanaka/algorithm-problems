@@ -1,5 +1,10 @@
 // Author: btjanaka (Bryon Tjanaka)
-// Problem: (Hackerrank) Big Sorting
+// Problem: (Hackerrank) big-sorting
+// Title: Big Sorting
+// Link: https://www.hackerrank.com/challenges/big-sorting/problem
+// Idea: Implement big integer comparison.
+// Difficulty: medium
+// Tags: implementation
 #include <bits/stdc++.h>
 
 using namespace std;

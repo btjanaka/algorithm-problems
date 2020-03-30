@@ -1,5 +1,11 @@
 // Author: btjanaka (Bryon Tjanaka)
-// Problem: (Hackerrank) Forming a Magic Square
+// Problem: (Hackerrank) magic-square-forming
+// Title: Forming a Magic Square
+// Link: https://www.hackerrank.com/challenges/magic-square-forming/problem
+// Idea: Find all possible magic squares and see which one takes the least cost
+// to convert to.
+// Difficulty: medium
+// Tags: implementation, brute-force
 #include <bits/stdc++.h>
 using namespace std;
 #define GET(x) scanf("%d", &x)

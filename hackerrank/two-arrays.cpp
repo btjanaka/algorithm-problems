@@ -1,5 +1,11 @@
 // Author: btjanaka (Bryon Tjanaka)
-// Problem: (HackerRank) permuting-two-arrays
+// Problem: (HackerRank) two-arrays
+// Title: Permuting Two Arrays
+// Link: https://www.hackerrank.com/challenges/two-arrays/problem
+// Idea: Sort a and b and match element i of a to element n - i - 1 of b, i.e.
+// match the reverse sorted version of b to a.
+// Difficulty: easy
+// Tags: greedy
 #include <bits/stdc++.h>
 #define GET(x) scanf("%d", &x)
 #define GED(x) scanf("%lf", &x)
