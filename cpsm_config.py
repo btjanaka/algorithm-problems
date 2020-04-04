@@ -46,6 +46,11 @@ abbreviations = {
         "dir": "codeforces",
         "create_input_file": True,
     },
+    "cj": {
+        "name": "CodeJam",
+        "dir": "codejam",
+        "create_input_file": True,
+    },
 }
 
 # Mapping of strings that can be inserted into the templates below. Note that
