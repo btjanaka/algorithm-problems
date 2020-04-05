@@ -1,5 +1,11 @@
 // Author: btjanaka (Bryon Tjanaka)
-// Problem: (Google Kickstart 2019A) Training
+// Problem: (Google Kickstart) 2019a-training
+// Title: Training
+// Link:
+// https://codingcompetitions.withgoogle.com/kickstart/round/0000000000050e01/00000000000698d6
+// Idea:
+// Difficulty: medium
+// Tags: arrays
 #include <bits/stdc++.h>
 using namespace std;
 #define GET(x) scanf("%d", &x)
