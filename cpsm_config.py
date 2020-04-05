@@ -51,6 +51,11 @@ abbreviations = {
         "dir": "codejam",
         "create_input_file": True,
     },
+    "ks": {
+        "name": "KickStart",
+        "dir": "kickstart",
+        "create_input_file": True,
+    },
 }
 
 # Mapping of strings that can be inserted into the templates below. Note that
