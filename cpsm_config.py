@@ -312,3 +312,17 @@ run_commands = {
     "py": ["python {{ problem_name }}.py < {{ problem_name }}.txt",],
     "py2": ["python2 {{ problem_name }}.py2 < {{ problem_name }}.txt",],
 }
+
+#
+# Solution postprocessing
+#
+
+import importlib.util
+module_spec = importlib.util.spec_from_file_location("postprocess",
+                                                     "postprocess.py")
+postprocessor = importlib.util.module_from_spec(module_spec)
+module_spec.loader.exec_module(postprocessor)
+
+
+def postprocess(code_file, input_file):
+    postprocessor.process(str(code_file))
