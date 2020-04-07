@@ -1,5 +1,10 @@
 // Author: btjanaka (Bryon Tjanaka)
 // Problem: (Leetcode) 198
+// Title: House Robber
+// Link: https://leetcode.com/problems/house-robber
+// Idea:
+// Difficulty: easy
+// Tags: dynamic-programming
 class Solution {
  public:
   int rob(vector<int>& nums) {

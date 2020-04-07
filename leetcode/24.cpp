@@ -1,5 +1,10 @@
 // Author: btjanaka (Bryon Tjanaka)
 // Problem: (Leetcode) 24
+// Title: Swap Nodes in Pairs
+// Link: https://leetcode.com/problems/swap-nodes-in-pairs
+// Idea:
+// Difficulty: medium
+// Tags: linked-list, implementation
 /**
  * Definition for singly-linked list.
  * struct ListNode {

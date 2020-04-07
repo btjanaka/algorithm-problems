@@ -1,5 +1,11 @@
 // Author: btjanaka (Bryon Tjanaka)
 // Problem: (Leetcode) 63
+// Title: Unique Paths II
+// Link: https://leetcode.com/problems/unique-paths-ii
+// Idea: See Unique Paths (#62). This problem is very similar, except that we
+// mark obstacle squares as having 0 paths to the goal.
+// Difficulty: medium
+// Tags: dynamic-programming
 class Solution {
  public:
   int uniquePathsWithObstacles(vector<vector<int>>& obstacleGrid) {

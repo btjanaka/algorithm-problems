@@ -1,5 +1,10 @@
 // Author: btjanaka (Bryon Tjanaka)
 // Problem: (Leetcode) 322
+// Title: Coin Change
+// Link: https://leetcode.com/problems/coin-change
+// Idea: See code comments.
+// Difficulty: medium
+// Tags: dynamic-programming
 class Solution {
  public:
   // Build a dp table where each index represents the minimum amount of coins to

@@ -1,5 +1,13 @@
 // Author: btjanaka (Bryon Tjanaka)
 // Problem: (LeetCode) 101
+// Title: Symmetric Tree
+// Link: https://leetcode.com/problems/symmetric-tree
+// Idea: The recursion is a bit tricky, as you have to recur over two nodes at
+// a time. But when you have two nodes, one on the left, and one on the right,
+// check that left->left mirrors right->right, and left->right mirrors
+// right->left.
+// Difficulty: medium
+// Tags: binary-tree
 /**
  * Definition for a binary tree node.
  * struct TreeNode {

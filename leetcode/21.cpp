@@ -1,5 +1,10 @@
 // Author: btjanaka (Bryon Tjanaka)
 // Problem: (Leetcode) 21
+// Title: Merge Two Sorted Lists
+// Link: https://leetcode.com/problems/merge-two-sorted-lists
+// Idea: See code comments. We just keep selecting the next largest element.
+// Difficulty: easy
+// Tags: linked-list, sorting
 /**
  * Definition for singly-linked list.
  * struct ListNode {

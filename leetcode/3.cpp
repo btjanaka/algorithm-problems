@@ -1,13 +1,17 @@
 // Author: btjanaka (Bryon Tjanaka)
 // Problem: (Leetcode) 3
+// Title: Longest Substring Without Repeating Characters
+// Link:
+// https://leetcode.com/problems/longest-substring-without-repeating-characters
+// Idea: Go through s once. Keep track of characters and their indices. Keep a
+// starting index for the substring. If a repeated character is found, move this
+// starting index to the index of that repeated character + 1 if the index is
+// greater.
+// Difficulty: medium
+// Tags: arrays
 class Solution {
  public:
   int lengthOfLongestSubstring(string s) {
-    // Go through s "once"
-    // Keep track of characters and their indices
-    // Keep a starting index. If a repeated character is found, move this
-    // starting index to the index of that repeated character + 1 if the index
-    // is greater
     int seen[128];
     memset(seen, -1, sizeof(seen));
     int max_len = 0;

@@ -1,5 +1,10 @@
 // Author: btjanaka (Bryon Tjanaka)
 // Problem: (Leetcode) 38
+// Title: Count and Say
+// Link: https://leetcode.com/problems/count-and-say
+// Idea: Repeatedly apply the rule to generate the next string.
+// Difficulty: easy
+// Tags: implementation
 class Solution {
  public:
   string generateSay(const string& cur) {

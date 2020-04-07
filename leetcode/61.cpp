@@ -1,5 +1,11 @@
 // Author: btjanaka (Bryon Tjanaka)
 // Problem: (Leetcode) 61
+// Title: Rotate List
+// Link: https://leetcode.com/problems/rotate-list
+// Idea: Find the location to rotate, then modify the connections as
+// appropriate.
+// Difficulty: medium
+// Tags: linked-list
 /**
  * Definition for singly-linked list.
  * struct ListNode {

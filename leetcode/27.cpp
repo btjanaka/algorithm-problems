@@ -1,20 +1,26 @@
 // Author: btjanaka (Bryon Tjanaka)
 // Problem: (Leetcode) 27
-// Note: it does not work to maintain two pointers because Leetcode seems to
-// have a bug with the judge, where you cannot set a vector's elements from
-// within a function, i.e. v[i] = 10 doesn't work properly.
+// Title: Remove Element
+// Link: https://leetcode.com/problems/remove-element
+// Idea: Move all the values to the end of the array by swapping the item at
+// the current index with the item at a "back pointer" at the end of the array.
+// Difficulty: easy
+// Tags: implementation
 class Solution {
  public:
   int removeElement(vector<int>& nums, int val) {
-    vector<int> copy = nums;
-    nums.clear();
-
-    for (int i = 0; i < copy.size(); ++i) {
-      if (copy[i] != val) {
-        nums.push_back(copy[i]);
+    int back_ptr = nums.size() - 1;
+    for (int i = 0; i <= back_ptr; ++i) {
+      while (back_ptr >= 0 && nums[i] == val) {
+        if (i != back_ptr) {
+          swap(nums[i], nums[back_ptr]);
+          --back_ptr;
+        } else {
+          --back_ptr;
+          break;
+        }
       }
     }
-
-    return nums.size();
+    return back_ptr + 1;
   }
 };

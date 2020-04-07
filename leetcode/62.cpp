@@ -1,6 +1,6 @@
 // Author: btjanaka (Bryon Tjanaka)
 // Problem: (Leetcode) 62
-// Link: https://leetcode.com/problems/two-sum/
+// Link: https://leetcode.com/problems/unique-paths/
 // Idea: We know the robot can move only down and right. At each square, the
 // number of ways to get to the goal may be represented as the sum of:
 // 1) the number of ways to reach the goal from the square below us (i.e. how

@@ -1,5 +1,10 @@
 // Author: btjanaka (Bryon Tjanaka)
 // Problem: (LeetCode) 66
+// Title: Plus One
+// Link: https://leetcode.com/problems/plus-one
+// Idea:
+// Difficulty: easy
+// Tags: implementation, math
 class Solution {
   public int[] plusOne(int[] digits) {
     boolean extra = false;

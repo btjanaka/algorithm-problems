@@ -1,5 +1,10 @@
 // Author: btjanaka (Bryon Tjanaka)
 // Problem: (LeetCode) 707
+// Title: Design Linked List
+// Link: https://leetcode.com/problems/design-linked-list
+// Idea: Implement a linked list.
+// Difficulty: medium
+// Tags: implementation, linked-list
 class MyLinkedList {
  public:
   /** Initialize your data structure here. */

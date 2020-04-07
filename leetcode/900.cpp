@@ -1,5 +1,11 @@
 // Author: btjanaka (Bryon Tjanaka)
 // Problem: (Leetcode) 900
+// Title: RLE Iterator
+// Link: https://leetcode.com/problems/rle-iterator/
+// Idea: Always keep track of what number we are on, and how many times we have
+// used it.
+// Difficulty: medium
+// Tags: implementation
 class RLEIterator {
  public:
   vector<int> data;

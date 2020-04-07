@@ -1,5 +1,10 @@
 // Author: btjanaka (Bryon Tjanaka)
 // Problem: (Leetcode) 6
+// Title: ZigZag Conversion
+// Link: https://leetcode.com/problems/zigzag-conversion/
+// Idea: See code comments.
+// Difficulty: medium
+// Tags: implementation
 class Solution {
  public:
   string convert(string s, int n) {

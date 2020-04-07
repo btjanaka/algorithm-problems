@@ -1,5 +1,10 @@
 // Author: btjanaka (Bryon Tjanaka)
 // Problem: (Leetcode) 7
+// Title: Reverse Integer
+// Link: https://leetcode.com/problems/reverse-integer
+// Idea:
+// Difficulty: easy
+// Tags: math, implementation
 class Solution {
  public:
   int reverse(int x) {

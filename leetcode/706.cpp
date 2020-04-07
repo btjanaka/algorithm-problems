@@ -1,5 +1,10 @@
 // Author: btjanaka (Bryon Tjanaka)
 // Problem: (Leetcode) 706
+// Title: Design HashMap
+// Link: https://leetcode.com/problems/design-hashmap
+// Idea: Implement a hashmap with separate chaining.
+// Difficulty: medium
+// Tags: implementation, hashmap
 class MyHashMap {
  public:
   /** Initialize your data structure here. */

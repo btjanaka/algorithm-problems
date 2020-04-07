@@ -1,23 +1,29 @@
 // Author: btjanaka (Bryon Tjanaka)
 // Problem: (Leetcode) 45
-
-// This solution kinda sucks... It's like the below solution but adds
-// inefficiency because at each node it goes through the reachable nodes
-// unnecessarily. Should be an O(n) solution but it is instead O(2n).
-// https://leetcode.com/problems/jump-game-ii/discuss/18028/O(n)-BFS-solution
+// Title: Jump Game II
+// Link: https://leetcode.com/problems/jump-game-ii
+// Idea: After the first jump, we will have a range of indices that we can
+// reach. After the next jump, we will have another range of indices that we can
+// reach, but we can avoid re-checking the indices that we reached after the
+// first jump. Thus, after each jump, we can have a "min_reachable" and
+// "max_reachable" index. Once max_reachable reaches or exceeds the last index,
+// we terminate.
+// Difficulty: medium
+// Tags: breadth-first-search, arrays
 class Solution {
  public:
   int jump(vector<int>& nums) {
-    int n = nums.size();
-    vector<int> dp(n, INT_MAX);
-    dp[0] = 0;
-    int last = 1;
-    for (int i = 0; i < n; ++i) {
-      for (int j = max(i + 1, last); j <= i + nums[i] && j < n; ++j) {
-        dp[j] = dp[i] + 1;
-        ++last;
+    int min_reachable = 0;
+    int max_reachable = 0;
+    int jumps;
+    for (jumps = 0; max_reachable < nums.size() - 1; ++jumps) {
+      int next_max = max_reachable;
+      for (int i = min_reachable; i <= max_reachable; ++i) {
+        next_max = max(next_max, i + nums[i]);
       }
+      min_reachable = max_reachable;
+      max_reachable = next_max;
     }
-    return dp[n - 1];
+    return jumps;
   }
 };

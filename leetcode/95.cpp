@@ -1,5 +1,10 @@
 // Author: btjanaka (Bryon Tjanaka)
 // Problem: (LeetCode) 95
+// Title: Unique Binary Search Trees II
+// Link: https://leetcode.com/problems/unique-binary-search-trees-ii
+// Idea: See code comments.
+// Difficulty: hard
+// Tags: binary-tree, dynamic-programming
 /**
  * Definition for a binary tree node.
  * struct TreeNode {

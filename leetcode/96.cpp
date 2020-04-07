@@ -1,5 +1,10 @@
 // Author: btjanaka (Bryon Tjanaka)
 // Problem: (LeetCode) 96
+// Title: Unique Binary Search Trees
+// Link: https://leetcode.com/problems/unique-binary-search-trees
+// Idea: See code comments.
+// Difficulty: medium
+// Tags: dynamic-programming
 class Solution {
  public:
   // count(n) = sum[i = 1 to n] count(i - 1) * count(n - i)

@@ -1,5 +1,10 @@
 // Author: btjanaka (Bryon Tjanaka)
 // Problem: (LeetCode) 559
+// Title: Maximum Depth of N-aray Tree
+// Link: https://leetcode.com/problems/maximum-depth-of-n-ary-tree/
+// Idea: Use recursion to find the depth.
+// Difficulty: easy
+// Tags: trees, recursion
 /*
 // Definition for a Node.
 class Node {

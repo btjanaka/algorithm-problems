@@ -1,5 +1,10 @@
 // Author: btjanaka (Bryon Tjanaka)
 // Problem: (LeetCode) 701
+// Title: Insert into a Binary Search Tree
+// Link: https://leetcode.com/problems/insert-into-a-binary-search-tree
+// Idea:
+// Difficulty: easy
+// Tags: binary-tree
 /**
  * Definition for a binary tree node.
  * struct TreeNode {

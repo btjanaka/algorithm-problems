@@ -1,5 +1,10 @@
 // Author: btjanaka (Bryon Tjanaka)
 // Problem: (Leetcode) 5
+// Title: Longest Palindromic Substring
+// Link: https://leetcode.com/problems/longest-palindromic-substring
+// Idea: See code comments.
+// Difficulty: medium
+// Tags: strings
 class Solution {
  public:
   string longestPalindrome(string s) {

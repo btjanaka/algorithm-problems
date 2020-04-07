@@ -1,5 +1,10 @@
 // Author: btjanaka (Bryon Tjanaka)
 // Problem: (Leetcode) 144
+// Title: Binary Tree Preorder Traversal
+// Link: https://leetcode.com/problems/binary-tree-preorder-traversal
+// Idea:
+// Difficulty: medium
+// Tags: binary-tree, implementation
 /**
  * Definition for a binary tree node.
  * struct TreeNode {

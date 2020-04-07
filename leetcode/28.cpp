@@ -1,5 +1,10 @@
 // Author: btjanaka (Bryon Tjanaka)
 // Problem: (Leetcode) 28
+// Title: Implement strStr()
+// Link: https://leetcode.com/problems/implement-strstr
+// Idea:
+// Difficulty: easy
+// Tags: implementation, strings
 class Solution {
  public:
   int strStr(string haystack, string needle) {

@@ -1,5 +1,10 @@
 // Author: btjanaka (Bryon Tjanaka)
 // Problem: (Leetcode) 17
+// Title: Letter Combinations of a Phone Number
+// Link: https://leetcode.com/problems/letter-combinations-of-a-phone-number
+// Idea: Use recursive backtracking to generate all possible strings.
+// Difficulty: medium
+// Tags: recursive, backtracking
 class Solution {
  public:
   // '2', '3', ... '9'

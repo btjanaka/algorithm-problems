@@ -1,5 +1,11 @@
 // Author: btjanaka (Bryon Tjanaka)
 // Problem: (LeetCode) 44
+// Title: Wildcard Matching
+// Link: https://leetcode.com/problems/wildcard-matching
+// Idea: Think of regex as a non-deterministic finite automaton, and implement
+// its transitions in a DP table.
+// Difficulty: hard
+// Tags: dynamic-programming, finite-state-machine
 class Solution {
  public:
   bool isMatch(string input, string regex) {

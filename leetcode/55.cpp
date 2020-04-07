@@ -1,22 +1,25 @@
 // Author: btjanaka (Bryon Tjanaka)
 // Problem: (Leetcode) 55
+// Title: Jump Game
+// Link: https://leetcode.com/problems/jump-game/
+// Idea: Keep extending the maximum reach of our jumps as we iterate through the
+// array. If we reach the max_reach and are unable to go any further, we have
+// failed.
+// Difficulty: medium
+// Tags: arrays, ad-hoc
 class Solution {
  public:
   bool canJump(vector<int>& nums) {
     int n = nums.size();
-    if (n == 1) return true;
-    int end = n - 1;
-    vector<bool> dp(n, false);
-    dp[0] = true;
-    for (int i = 0; i < n; ++i) {
-      if (!dp[i]) continue;
-      if (!dp[min(end, i + nums[i])]) {
-        for (int j = i + 1; j <= i + nums[i] && j < n; ++j) {
-          dp[j] = true;
-          if (j == end) return true;
-        }
-      }
+    int max_reach = 0;
+    int i = 0;
+    while (i < n - 1) {
+      max_reach = max(max_reach, i + nums[i]);
+      if (i < max_reach)
+        ++i;
+      else
+        return false;
     }
-    return false;
+    return true;
   }
 };

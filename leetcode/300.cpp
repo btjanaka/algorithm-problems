@@ -1,5 +1,10 @@
 // Author: btjanaka (Bryon Tjanaka)
 // Problem: (Leetcode) 300
+// Title: Longest Increasing Subsequence
+// Link: https://leetcode.com/problems/longest-increasing-subsequence
+// Idea: Classic dynamic programming problem.
+// Difficulty: medium
+// Tags: dynamic-programming
 
 // O(n^2) solution
 class Solution {

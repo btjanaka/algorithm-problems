@@ -1,5 +1,10 @@
 // Author: btjanaka (Bryon Tjanaka)
 // Problem: (LeetCode) 102
+// Title: Binary Tree Level Order Traversal
+// Link: https://leetcode.com/problems/binary-tree-level-order-traversal
+// Idea: Breadth first traversal, but store everything you visit.
+// Difficulty: medium
+// Tags: binary-tree
 /**
  * Definition for a binary tree node.
  * struct TreeNode {

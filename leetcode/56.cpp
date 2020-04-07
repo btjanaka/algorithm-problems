@@ -1,5 +1,14 @@
 // Author: btjanaka (Bryon Tjanaka)
 // Problem: (LeetCode) 56
+// Title: Merge Intervals
+// Link: https://leetcode.com/problems/merge-intervals
+// Idea: Represent the interval endpoints as events; we can iterate through
+// these events while keeping track of how many intervals are active. If we have
+// 0 active intervals and encounter a "start interval" event, we start a new
+// interval, and if we encounter an "end interval" event and go to having 0
+// event
+// Difficulty: medium
+// Tags: arrays, sorting
 /**
  * Definition for an interval.
  * struct Interval {

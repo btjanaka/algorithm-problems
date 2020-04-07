@@ -1,5 +1,11 @@
 // Author: btjanaka (Bryon Tjanaka)
 // Problem: (Leetcode) 13
+// Title: Roman to Integer
+// Link: https://leetcode.com/problems/roman-to-integer
+// Idea: Build a state machine that modifies the result based on what characters
+// it sees.
+// Difficulty: easy
+// Tags: implementation
 class Solution {
  public:
   int romanToInt(string s) {

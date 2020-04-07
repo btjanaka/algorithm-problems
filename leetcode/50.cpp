@@ -1,5 +1,13 @@
 // Author: btjanaka (Bryon Tjanaka)
 // Problem: (Leetcode) 50
+// Title: Pow(x,n)
+// Link: https://leetcode.com/problems/powx-n
+// Idea: Use the fact that n can be represented as a series of powers of 2, i.e.
+// n = 2^k + 2^(k-1) + ... 2^0. Thus, the result of x^n is really x^(2^k) *
+// x^(2^(k-1)) * ... Thus, in our calculations, we just have to keep calculating
+// x^(2^y) for some y and multiplying that into our accumulated result.
+// Difficulty: medium
+// Tags: implementation, math
 class Solution {
  public:
   double myPow(double x, int n) {

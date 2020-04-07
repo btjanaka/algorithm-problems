@@ -1,5 +1,10 @@
 // Author: btjanaka (Bryon Tjanaka)
 // Problem: (Leetcode) 2
+// Title: Add Two Numbers
+// Link: https://leetcode.com/problems/add-two-numbers
+// Idea: Use elementary school addition rules.
+// Difficulty: medium
+// Tags: implementation, linked-list, math
 /**
  * Definition for singly-linked list.
  * struct ListNode {

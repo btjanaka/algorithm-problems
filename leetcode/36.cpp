@@ -1,5 +1,10 @@
 // Author: btjanaka (Bryon Tjanaka)
 // Problem: (Leetcode) 36
+// Title: Valid Sudoku
+// Link: https://leetcode.com/problems/valid-sudoku
+// Idea: Implement a series of checks as described in the question.
+// Difficulty: easy
+// Tags: implementation
 class Solution {
  public:
   bool isValidSudoku(vector<vector<char>>& board) {

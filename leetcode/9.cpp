@@ -1,5 +1,10 @@
 // Author: btjanaka (Bryon Tjanaka)
 // Problem: (Leetcode) 9
+// Title: Palindrome Number
+// Link: https://leetcode.com/problems/palindrome-number/
+// Idea: See code comments.
+// Difficulty: easy
+// Tags: math, implementation
 class Solution {
  public:
   bool isPalindrome(int x) {

@@ -1,5 +1,10 @@
 // Author: btjanaka (Bryon Tjanaka)
 // Problem: (Leetcode) 15
+// Title: 3Sum
+// Link: https://leetcode.com/problems/3sum
+// Idea: See comments.
+// Difficulty: medium
+// Tags: implementation, arrays, sorting
 
 // runtime: O(n^2)
 class Solution {

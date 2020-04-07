@@ -1,5 +1,11 @@
 # Author: btjanaka (Bryon Tjanaka)
 # Problem: (LeetCode) 149
+# Title: Max Points on a Line
+# Link: https://leetcode.com/problems/max-points-on-a-line
+# Idea: This solution looks at every point and checks how many other points
+# align with it along a given line.
+# Difficulty: hard
+# Tags: geometry
 from math import gcd
 from fractions import Fraction
 from collections import defaultdict

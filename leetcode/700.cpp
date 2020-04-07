@@ -1,5 +1,10 @@
 // Author: btjanaka (Bryon Tjanaka)
 // Problem: (LeetCode) 700
+// Title: Search in a Binary Search Tree
+// Link: https://leetcode.com/problems/search-in-a-binary-search-tree
+// Idea:
+// Difficulty: easy
+// Tags: binary-tree
 /**
  * Definition for a binary tree node.
  * struct TreeNode {

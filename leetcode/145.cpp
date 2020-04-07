@@ -1,7 +1,13 @@
 // Author: btjanaka (Bryon Tjanaka)
 // Problem: (Leetcode) 145
+// Title: Binary Tree Postorder Traversal
+// Link: https://leetcode.com/problems/binary-tree-postorder-traversal
+// Idea: See comments.
+// Difficulty: hard
+// Tags: binary-tree, implementation
+
 // Solution 1
-// Modifies the tree but easy to understand
+// Modifies the tree but easy to understand.
 /**
  * Definition for a binary tree node.
  * struct TreeNode {

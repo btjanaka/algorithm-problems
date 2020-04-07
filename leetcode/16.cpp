@@ -1,5 +1,10 @@
 // Author: btjanaka (Bryon Tjanaka)
 // Problem: (Leetcode) 16
+// Title: 3Sum Closest
+// Link: https://leetcode.com/problems/3sum-closest
+// Idea: See 3Sum (#15) for more info.
+// Difficulty: medium
+// Tags: implementation, arrays, sorting
 class Solution {
  public:
   int threeSumClosest(vector<int>& nums, int target) {

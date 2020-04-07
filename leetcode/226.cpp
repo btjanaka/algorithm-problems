@@ -1,5 +1,10 @@
 // Author: btjanaka (Bryon Tjanaka)
 // Problem: (Leetcode) 226
+// Title: Invert Binary Tree
+// Link: https://leetcode.com/problems/invert-binary-tree
+// Idea: Recursively invert the children.
+// Difficulty: easy
+// Tags: binary-tree, recursion
 /**
  * Definition for a binary tree node.
  * struct TreeNode {

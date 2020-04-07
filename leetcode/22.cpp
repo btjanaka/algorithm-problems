@@ -1,5 +1,11 @@
 // Author: btjanaka (Bryon Tjanaka)
 // Problem: (Leetcode) 22
+// Title: Generate Parentheses
+// Link: https://leetcode.com/problems/generate-parentheses
+// Idea: Use recursive backtracking to generate every combo possible while
+// adding in several checks to make sure everything is valid.
+// Difficulty: medium
+// Tags: recursion, backtracking
 class Solution {
  public:
   void generate(int left, int right, int tot, int n, char cur[],

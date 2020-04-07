@@ -1,8 +1,12 @@
 // Author: btjanaka (Bryon Tjanaka)
 // Problem: (Leetcode) 18
-// See 3 sum - this solution is very similar to the 3 sum solution, except that
-// is uses two outside loops instead of one because we need quadruplets instead
-// of triplets.
+// Title: 4Sum
+// Link: https://leetcode.com/problems/4sum
+// Idea: See 3Sum ($#15) - this solution is very similar to the 3 sum solution,
+// except that is uses two outside loops instead of one because we need
+// quadruplets instead of triplets.
+// Difficulty: medium
+// Tags: implementation, arrays, sorting
 class Solution {
  public:
   vector<vector<int>> fourSum(vector<int>& nums, int target) {

@@ -1,5 +1,11 @@
 // Author: btjanaka (Bryon Tjanaka)
 // Problem: (LeetCode) 200
+// Title: Number of Islands
+// Link: https://leetcode.com/problems/number-of-islands
+// Idea: Count connected components with your favorite graph traversal
+// algorithm.
+// Difficulty: medium
+// Tags: graph, connected-components
 class Solution {
  public:
   int numIslands(vector<vector<char>>& grid) {

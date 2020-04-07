@@ -1,5 +1,11 @@
 // Author: btjanaka (Bryon Tjanaka)
 // Problem: (LeetCode) 743
+// Title: Network Delay Time
+// Link: https://leetcode.com/problems/network-delay-time
+// Idea: Use Dijkstra's algorithm to find the shortest path from the start node
+// to all the other nodes.
+// Difficulty: medium
+// Tags: single-source-shortest-paths, dijkstra, graph
 class Solution {
  public:
   int networkDelayTime(vector<vector<int>>& times, int N, int K) {

@@ -1,5 +1,10 @@
 // Author: btjanaka (Bryon Tjanaka)
 // Problem: (LeetCode) 210
+// Title: Course Schedule II
+// Link: https://leetcode.com/problems/course-schedule-ii
+// Idea: Topological sort, but be careful about cycles.
+// Difficulty: medium
+// Tags: graph, topological-sort
 class Solution {
  private:
   static constexpr int UNVISIT = 0;

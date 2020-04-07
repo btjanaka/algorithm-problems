@@ -1,5 +1,11 @@
 // Author: btjanaka (Bryon Tjanaka)
 // Problem: (LeetCode) 775
+// Title: Global and Local Inversions
+// Link: https://leetcode.com/problems/global-and-local-inversions
+// Idea: User mergesort for counting global inversions. Counting local
+// inversions is trivial.
+// Difficulty: medium
+// Tags: sorting
 class Solution {
  public:
   int countLocalInversions(vector<int>& A) {

@@ -1,5 +1,10 @@
 // Author: btjanaka (Bryon Tjanaka)
 // Problem: (Leetcode) 46
+// Title: Permutations
+// Link: https://leetcode.com/problems/permutations
+// Idea: Use recursive backtracking to generate all the permutations.
+// Difficulty: medium
+// Tags: recursion, backtracking
 class Solution {
  public:
   void generate(vector<int>& tmp, int count, vector<int>& nums, long long used,

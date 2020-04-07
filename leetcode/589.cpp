@@ -1,5 +1,10 @@
 // Author: btjanaka (Bryon Tjanaka)
 // Problem: (LeetCode) 589
+// Title: N-ary Tree Preorder Traversal
+// Link: https://leetcode.com/problems/n-ary-tree-preorder-traversal
+// Idea: Implement an iterative depth-first traversal.
+// Difficulty: easy
+// Tags: tree, depth-first-traversal
 /*
 // Definition for a Node.
 class Node {

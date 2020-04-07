@@ -1,6 +1,11 @@
 // Author: btjanaka (Bryon Tjanaka)
 // Problem: (LeetCode) 10
-// Idea: simulate with an NFA
+// Title: Regular Expression Matching
+// Link: https://leetcode.com/problems/regular-expression-matching
+// Idea: Simulate with an NFA (non-deterministic finite automaton). There's also
+// some DP methods, but this is cooler :p
+// Difficulty: hard
+// Tags: dynamic-programming, finite-state-machine
 class Solution {
  public:
   bool isMatch(string s, string p) {

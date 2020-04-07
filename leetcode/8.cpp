@@ -1,5 +1,10 @@
 // Author: btjanaka (Bryon Tjanaka)
 // Problem: (Leetcode) 8
+// Title: String to Integer (atoi)
+// Link: https://leetcode.com/problems/string-to-integer-atoi
+// Idea:
+// Difficulty: easy
+// Tags: math, implementation
 class Solution {
  public:
   int myAtoi(string str) {

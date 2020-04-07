@@ -1,5 +1,10 @@
 // Author: btjanaka (Bryon Tjanaka)
 // Problem: (Leetcode) 42
+// Title: Trapping Rain Water
+// Link: https://leetcode.com/problems/trapping-rain-water
+// Idea: See comments.
+// Difficulty: medium
+// Tags: arrays, ad-hoc
 class Solution {
  public:
   int trap(vector<int>& height) {

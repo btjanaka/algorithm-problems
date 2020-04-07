@@ -1,5 +1,11 @@
 // Author: btjanaka (Bryon Tjanaka)
 // Problem: (Leetcode) 295
+// Title: Find Median from Data Stream
+// Link: https://leetcode.com/problems/find-median-from-data-stream
+// Idea: Typically, this is implemented with two heaps. I decided to use a skip
+// list.
+// Difficulty: medium
+// Tags: implementation
 
 // Skip list
 

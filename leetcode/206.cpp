@@ -1,5 +1,10 @@
 // Author: btjanaka (Bryon Tjanaka)
 // Problem: (LeetCode) 206
+// Title: Reverse Linked List
+// Link: https://leetcode.com/problems/reverse-linked-list
+// Idea:
+// Difficulty: easy
+// Tags: linked-list, implementation
 /**
  * Definition for singly-linked list.
  * struct ListNode {

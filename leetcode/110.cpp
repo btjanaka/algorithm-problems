@@ -1,5 +1,10 @@
 // Author: btjanaka (Bryon Tjanaka)
 // Problem: (Leetcode) 110
+// Title: Balanced Binary Tree
+// Link: https://leetcode.com/problems/balanced-binary-tree
+// Idea: Recursion.
+// Difficulty: easy
+// Tags: binary-tree
 /**
  * Definition for a binary tree node.
  * struct TreeNode {

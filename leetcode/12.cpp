@@ -1,5 +1,11 @@
 // Author: btjanaka (Bryon Tjanaka)
 // Problem: (Leetcode) 12
+// Title: Integer to Roman
+// Link: https://leetcode.com/problems/integer-to-roman
+// Idea: Pretty straightforward -- just map the digits to their roman numeral
+// representation.
+// Difficulty: medium
+// Tags: implementation
 constexpr static char* ones[10] = {"",  "I",  "II",  "III",  "IV",
                                    "V", "VI", "VII", "VIII", "IX"};
 constexpr static char* tens[10] = {"",  "X",  "XX",  "XXX",  "XL",

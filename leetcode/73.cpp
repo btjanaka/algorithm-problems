@@ -4,8 +4,8 @@
 // Link: https://leetcode.com/problems/set-matrix-zeroes/
 // Idea: Use column zero and row zero as flags - they indicate which rows and
 // columns should have zeros.
-// Difficulty:
-// Tags:
+// Difficulty: medium
+// Tags: implementation, arrays
 class Solution {
  public:
   void setZeroes(vector<vector<int>>& m) {

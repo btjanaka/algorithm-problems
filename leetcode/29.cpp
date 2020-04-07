@@ -1,5 +1,10 @@
 // Author: btjanaka (Bryon Tjanaka)
 // Problem: (Leetcode) 29
+// Title: Divide Two Integers
+// Link: https://leetcode.com/problems/divide-two-integers
+// Idea: Gradually subtract. Use bit-shifting in place of multiplication.
+// Difficulty: medium
+// Tags: math, implementation
 class Solution {
  public:
   int divide(int dividend, int divisor) {

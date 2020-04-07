@@ -1,6 +1,11 @@
 // Author: btjanaka (Bryon Tjanaka)
 // Problem: (Leetcode) 31
-// See: https://www.nayuki.io/page/next-lexicographical-permutation-algorithm
+// Title: Next Permutation
+// Link: https://leetcode.com/problems/next-permutation
+// Idea: See
+// https://www.nayuki.io/page/next-lexicographical-permutation-algorithm
+// Difficulty: medium
+// Tags: implementation, arrays
 class Solution {
  public:
   void nextPermutation(vector<int>& nums) {

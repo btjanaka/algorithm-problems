@@ -1,5 +1,11 @@
 // Author: btjanaka (Bryon Tjanaka)
 // Problem: (Leetcode) 141
+// Title: Linked List Cycle
+// Link: https://leetcode.com/problems/linked-list-cycle
+// Idea: Have two nodes run around the linked list; one that is fast and one
+// that is slow. If the fast one catches up to the slow one, there is a cycle.
+// Difficulty: medium
+// Tags: linked-list
 /**
  * Definition for singly-linked list.
  * struct ListNode {

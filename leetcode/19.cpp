@@ -1,5 +1,11 @@
 // Author: btjanaka (Bryon Tjanaka)
 // Problem: (Leetcode) 19
+// Title: Remove Nth Node from End of List
+// Link: https://leetcode.com/problems/remove-nth-node-from-end-of-list
+// Idea: See code comments.
+// Difficulty: medium
+// Tags: linked-list
+
 // Solution 1: slow way - two passes over the list
 /**
  * Definition for singly-linked list.

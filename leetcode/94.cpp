@@ -1,5 +1,10 @@
 // Author: btjanaka (Bryon Tjanaka)
 // Problem: (Leetcode) 94
+// Title: Binary Tree Inorder Traversal
+// Link: https://leetcode.com/problems/binary-tree-inorder-traversal
+// Idea: See code comments.
+// Difficulty: medium
+// Tags: implementation, binary-tree
 /**
  * Definition for a binary tree node.
  * struct TreeNode {

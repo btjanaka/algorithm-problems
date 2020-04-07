@@ -1,5 +1,10 @@
 // Author: btjanaka (Bryon Tjanaka)
 // Problem: (LeetCode) 79
+// Title: Word Search
+// Link: https://leetcode.com/problems/word-search
+// Idea: Use DFS to check if a word starting at a given index matches.
+// Difficulty: medium
+// Tags: graph, depth-first-search
 class Solution {
  public:
   int dr[4] = {-1, 0, 1, 0};

@@ -1,5 +1,12 @@
 // Author: btjanaka (Bryon Tjanaka)
 // Problem: (LeetCode) 590
+// Title: N-ary Tree Postorder Traversal
+// Link: https://leetcode.com/problems/n-ary-tree-postorder-traversal
+// Idea: Perform an iterative DFS, but do not remove nodes from the stack
+// immediately. Rather, mark them as visited the first time visiting them, add
+// their children, then pop them after visiting their children.
+// Difficulty: easy
+// Tags: tree, depth-first
 /*
 // Definition for a Node.
 class Node {

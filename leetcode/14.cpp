@@ -1,5 +1,10 @@
 // Author: btjanaka (Bryon Tjanaka)
 // Problem: (Leetcode) 14
+// Title: Longest Common Prefix
+// Link: https://leetcode.com/problems/longest-common-prefix
+// Idea: Check the character at each index in every string.
+// Difficulty: easy
+// Tags: strings
 class Solution {
  public:
   string longestCommonPrefix(vector<string>& strs) {

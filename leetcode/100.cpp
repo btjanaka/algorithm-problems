@@ -1,5 +1,10 @@
 // Author: btjanaka (Bryon Tjanaka)
 // Problem: (LeetCode) 100
+// Title: Same Tree
+// Link: https://leetcode.com/problems/same-tree
+// Idea: Use recursion.
+// Difficulty: easy
+// Tags: binary-tree
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
