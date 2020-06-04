@@ -4,8 +4,8 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-int total;  // Total positions counted.
-int n;      // Board size.
+int total;     // Total positions counted.
+int complete;  // Bitset with first n bits set to 1 (n is board size).
 
 // Recurs through the columns of the board, trying every row in each column.
 // The occupied* inputs are variables indicating which rows in the current
@@ -31,20 +31,20 @@ int n;      // Board size.
 void backtrack(int col, int occupied_rows, int occupied_left_diag,
                int occupied_right_diag) {
   // Base case -- reached the end.
-  if (col == n) {
+  if (occupied_rows == complete) {
     ++total;
     return;
   }
 
-  // pos is a bitset for the current position.
-  int row_max = 1 << n;
-  for (int pos = 1; pos != row_max; pos <<= 1) {
-    // Check if any squares are attacked.
-    if (!(pos & occupied_rows) && !(pos & occupied_left_diag) &&
-        !(pos & occupied_right_diag)) {
-      backtrack(col + 1, occupied_rows | pos, (occupied_left_diag | pos) << 1,
-                (occupied_right_diag | pos) >> 1);
-    }
+  // Holds all available spots as a bitset.
+  int available_pos =
+      complete & ~(occupied_rows | occupied_left_diag | occupied_right_diag);
+  while (available_pos) {
+    // Least significant bit to extract an available position.
+    int pos = available_pos & -available_pos;
+    available_pos -= pos;
+    backtrack(col + 1, occupied_rows | pos, (occupied_left_diag | pos) << 1,
+              (occupied_right_diag | pos) >> 1);
   }
 }
 
@@ -54,7 +54,7 @@ int main(int argc, char* argv[]) {
     exit(1);
   }
 
-  n = atoi(argv[1]);
+  complete = (1 << atoi(argv[1])) - 1;
 
   // Time the running.
   clock_t t = clock();
