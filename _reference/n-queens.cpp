@@ -28,7 +28,7 @@ int complete;  // Bitset with first n bits set to 1 (n is board size).
 // appropriately -- rows stay the same, left_diag shifts left (if a "diagonal"
 // queen attacks row x on this column, it attacks row x - 1 on the next column),
 // and right_diag shifts right.
-void backtrack(int col, int occupied_rows, int occupied_left_diag,
+void backtrack(int occupied_rows, int occupied_left_diag,
                int occupied_right_diag) {
   // Base case -- reached the end.
   if (occupied_rows == complete) {
@@ -43,7 +43,7 @@ void backtrack(int col, int occupied_rows, int occupied_left_diag,
     // Least significant bit to extract an available position.
     int pos = available_pos & -available_pos;
     available_pos -= pos;
-    backtrack(col + 1, occupied_rows | pos, (occupied_left_diag | pos) << 1,
+    backtrack(occupied_rows | pos, (occupied_left_diag | pos) << 1,
               (occupied_right_diag | pos) >> 1);
   }
 }
@@ -59,7 +59,7 @@ int main(int argc, char* argv[]) {
   // Time the running.
   clock_t t = clock();
   total = 0;
-  backtrack(0, 0, 0, 0);
+  backtrack(0, 0, 0);
   t = clock() - t;
 
   printf("Solutions: %d\n", total);
