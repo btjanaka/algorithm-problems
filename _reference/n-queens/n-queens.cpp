@@ -1,6 +1,7 @@
 // Counts the number of solutions to an n-queens problem of size n.
 // Usage:
-//   g++ n-queens.cpp && a.out [N]
+//   make n-queens
+//   n-queens [N]
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -50,7 +51,7 @@ long long backtrack(int occupied_rows, int occupied_left_diag,
 
 int main(int argc, char* argv[]) {
   if (argc != 2) {
-    printf("Usage: g++ n-queens.cpp && a.out [N]\n");
+    printf("Usage: n-queens [N]\n");
     exit(1);
   }
 
@@ -58,12 +59,20 @@ int main(int argc, char* argv[]) {
   int complete = (1 << atoi(argv[1])) - 1;
 
   // Time the running.
-  clock_t t = clock();
-  long long total = backtrack(0, 0, 0, complete);
-  t = clock() - t;
+  auto system_time_start = std::clock();
+  auto wall_time_start = std::chrono::system_clock::now();
 
-  printf("Solutions: %lld\n", total);
-  printf("Time:      %.6f seconds\n", (float)t / CLOCKS_PER_SEC);
+  long long total = backtrack(0, 0, 0, complete);
+
+  double system_time =
+      double(std::clock() - system_time_start) / CLOCKS_PER_SEC;
+  double wall_time = std::chrono::duration<double>(
+                         std::chrono::system_clock::now() - wall_time_start)
+                         .count();
+
+  printf("Solutions  : %lld\n", total);
+  printf("System Time: %.9lf seconds\n", system_time);
+  printf("Wall Time  : %.9lf seconds\n", wall_time);
 
   return 0;
 }

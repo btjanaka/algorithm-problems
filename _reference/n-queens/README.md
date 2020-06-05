@@ -1,15 +1,35 @@
 # N Queens
 
-Attempts to get n-queens to run _fast_. See `n-queens.cpp` for a more basic
-solution to the problem, and see `n-queens-optimized.cpp` for a more optimized
-version.
+Attempts to _quickly_ count the number of solutions to n-queens. See
+`n-queens.cpp` for a more basic solution to the problem, and see
+`n-queens-optimized.cpp` for a more optimized version. Optimizations include:
+
+- Only calculating half of the solutions, i.e. solutions with the first queen in
+  the top half of the board.
+- Multithreading the calculation, i.e. spawning a thread for each position of
+  the first queen.
 
 ## Usage
 
-As these programs only depend on the standard library, just run:
+Build the binaries:
 
 ```bash
-g++ <file>.cpp && a.out [N]
+make
+```
+
+And run either of them:
+
+```bash
+n-queens [N]
+n-queens-optimized [N]
 ```
 
 Where `N` is the size of the board.
+
+## Credits
+
+Basic implementation in `n-queens.cpp` adapted from _Competitive Programming 3_
+by Steven and Felix Halim.
+
+Many thanks to Ofek Gila ([@ofekih](https://github.com/ofekih)) for various
+optimization ideas.
