@@ -4,8 +4,8 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-int total;     // Total positions counted.
-int complete;  // Bitset with first n bits set to 1 (n is board size).
+long long total;  // Total positions counted.
+int complete;     // Bitset with first n bits set to 1 (n is board size).
 
 // Recurs through the columns of the board, trying every row in each column.
 // The occupied* inputs are variables indicating which rows in the current
@@ -62,7 +62,7 @@ int main(int argc, char* argv[]) {
   backtrack(0, 0, 0);
   t = clock() - t;
 
-  printf("Solutions: %d\n", total);
+  printf("Solutions: %lld\n", total);
   printf("Time:      %.6f seconds\n", (float)t / CLOCKS_PER_SEC);
 
   return 0;
