@@ -17,3 +17,6 @@ Currently, the websites/contests represented in this repo are:
 | [Google Hash Code](https://codingcompetitions.withgoogle.com/hashcode)          | hashcode          |
 | [Google Code Jam](https://code.google.com/codejam/past-contests)                | codejam           |
 | [Google Kickstart](https://codingcompetitions.withgoogle.com/kickstart/archive) | kickstart         |
+
+This repository also contains several reference implementations of algorithms in
+the `_references` directory.
