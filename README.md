@@ -20,3 +20,11 @@ Currently, the websites/contests represented in this repo are:
 
 This repository also contains several reference implementations of algorithms in
 the `_references` directory.
+
+## Tools
+
+I use [CPSM](https://github.com/btjanaka/cpsm) to manage code in this
+repository. I also use
+[ClangFormat](https://clang.llvm.org/docs/ClangFormat.html),
+[Prettier](https://prettier.io/), [YAPF](https://github.com/google/yapf), and
+[Pylint](http://pylint.pycqa.org/) for formatting and linting.
