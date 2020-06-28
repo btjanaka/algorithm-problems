@@ -34,4 +34,6 @@ int main() {
     cin >> n >> k;
     cout << nCr[n + k - 1][n - 1] << '\n';
   }
+
+  return 0;
 }
