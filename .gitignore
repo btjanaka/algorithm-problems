@@ -25,8 +25,7 @@
 #
 
 # from running CPSM
-__pycache__
+__pycache__/
 
 # solving directories
-**/solving
-
+**/solving/
