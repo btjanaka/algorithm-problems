@@ -319,7 +319,7 @@ run_commands = {
 
 import importlib.util
 module_spec = importlib.util.spec_from_file_location("postprocess",
-                                                     "postprocess.py")
+                                                     "local/postprocess.py")
 postprocessor = importlib.util.module_from_spec(module_spec)
 module_spec.loader.exec_module(postprocessor)
 
