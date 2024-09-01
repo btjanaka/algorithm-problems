@@ -45,3 +45,24 @@ class Solution {
     }
   }
 };
+
+// Updated 8/31/2024
+class Solution {
+ public:
+  double myPow(double x, long long n) {
+    bool negative = n < 0;
+    if (negative) n = -n;
+    double result = 1.0;
+    while (n > 0) {
+      if (n & 1) {
+        // n is odd, which means that this power of 2 shows up in n, so we
+        // multiply by x.
+        result *= x;
+      }
+      x = x * x;
+      n >>= 1;  // Divide n by 2.
+    }
+    if (negative) result = 1 / result;
+    return result;
+  }
+};
