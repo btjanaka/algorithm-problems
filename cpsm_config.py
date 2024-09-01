@@ -1,7 +1,7 @@
 # Configuration file for CPSM
 
 # Command to run for opening the files when starting a new solution
-editor = "vim -p"
+editor = "nvim -p"
 
 # Should CPSM open the input file along with the code file? This is particularly
 # useful if your editor does not support files
@@ -318,6 +318,7 @@ run_commands = {
 #
 
 import importlib.util
+
 module_spec = importlib.util.spec_from_file_location("postprocess",
                                                      "local/postprocess.py")
 postprocessor = importlib.util.module_from_spec(module_spec)
