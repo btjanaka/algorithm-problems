@@ -42,3 +42,45 @@ class Solution {
     return head->next;
   }
 };
+
+// Solution from 9/2024; pretty much the same.
+
+/**
+ * Definition for singly-linked list.
+ * struct ListNode {
+ *     int val;
+ *     ListNode *next;
+ *     ListNode() : val(0), next(nullptr) {}
+ *     ListNode(int x) : val(x), next(nullptr) {}
+ *     ListNode(int x, ListNode *next) : val(x), next(next) {}
+ * };
+ */
+typedef pair<int, int> ii;
+class Solution {
+ public:
+  ListNode* mergeKLists(vector<ListNode*>& lists) {
+    ListNode* head = new ListNode();
+    ListNode* front = head;
+    priority_queue<ii, vector<ii>, greater<ii>> pq;
+
+    // Initialize pq with the front of each list.
+    for (int i = 0; i < lists.size(); ++i) {
+      if (lists[i] != nullptr) {
+        pq.push({lists[i]->val, i});
+      }
+    }
+
+    while (!pq.empty()) {
+      ii top = pq.top();
+      pq.pop();
+      int i = top.second;
+      head->next = lists[i];
+      lists[i] = lists[i]->next;
+      if (lists[i] != nullptr) {
+        pq.push({lists[i]->val, i});
+      }
+      head = head->next;
+    }
+    return front->next;
+  }
+};
